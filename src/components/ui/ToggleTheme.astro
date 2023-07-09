@@ -37,14 +37,14 @@
 		const switchTheme = () => {
 			document.documentElement.classList.toggle('dark');
 			if (document.documentElement.classList.contains('dark')) {
-				localStorage.setItem('theme', 'light');
+				localStorage.setItem('theme', 'dark');
 			}
 		};
 
 		if (
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) &&
-				window.matchMedia('(prefers-color-scheme: dark)').matches)
+				window.matchMedia('(prefers-color-scheme: light)').matches)
 		) {
 			switchTheme();
 		}
