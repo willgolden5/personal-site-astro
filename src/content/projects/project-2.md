@@ -1,7 +1,8 @@
 ---
 inProgress: false
-title: Project title
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Blackbox Quant
+img_alt: blackbox website link
+img_src: ./src/assets/images/cube.png
+link: https://blackboxquant.com/
+tags: ['Next.js', 'React', 'ChakraUI', 'Typescript', 'TRPC', 'Prisma', 'Golang', 'Gin']
 ---

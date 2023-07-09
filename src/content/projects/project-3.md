@@ -1,7 +1,8 @@
 ---
 inProgress: false
-title: Project title
-img_alt: project image alt text
-link: https://github.com/veranikabarel?tab=repositories
-tags: ['React', 'CSS', 'Typescript']
+title: Stealth AI Project
+img_alt: blackbox website link
+img_src: ./src/assets/images/stealth.png
+link: https://github.com/willgolden5
+tags: ['Expo', 'React Native', 'TailwindCSS', 'Typescript', 'Node.js', 'React-Hook-Form']
 ---
